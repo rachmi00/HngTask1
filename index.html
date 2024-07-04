@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel's website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h3 class="logo" >Rachel Mifor Agyingi.</h3>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li>
+                    <a href="https://hng.tech/learn" data-testid="hngLink">hngLink</a>
+                </li>
+                <li>
+                    <a href="https://keyword.dog" data-testid="keywordLink">keywordLink</a>
+                </li>
+                <li>
+                    <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeAnyWebLink</a>
+                </li>
+              
+                   
+            </ul>
+            <ul>
+                <li class="hideOnMobile">
+                    <a href="https://hng.tech/learn" data-testid="hngLink">hngLink</a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="https://keyword.dog" data-testid="keywordLink">keywordLink</a>
+                </li>
+                <li class="hideOnMobile">
+                    <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeAnyWebLink</a>
+                </li>
+                <!-- <li>      <p>DATE: <span data-testid="currentDay" id="date"></span></p> </li>
+                   <li> <p>TIME:       <span id="time" data-testid="currentTimeUTC"></span></p></li> -->
+                   <li class="menu-button"   onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+     <div class="container">
+        <div class="box details">
+            <h1 data-testid="slackDisplayName">I'm Rachel Mifor <span>Agyingi</span></h1>
+            <p data-testid="slackEmail">r.agyingi@gmail.com</p>
+            <section class="content">
+                <div class="why-me">
+                    <h2>Goals</h2>
+                    <p>
+                        1. Master data structures and algorithms
+                       
+                        <ul>
+                            <li>Study common data structures (arrays, linked lists, trees, graphs)</li>
+                            <li>Learn various algorithm types (sorting, searching, dynamic programming)</li>
+                            <li>Practice solving coding problems regularly</li>
+    
+                        </ul>
+
+                    </p>
+                    <p>
+                        2. Enhance frontend skills
+                    <ul>
+                        <li>Improve HTML, CSS, and JavaScript knowledge</li>
+                        <li>Learn popular frontend frameworks (React, Vue, or Angular)</li>
+                        <li>Master responsive design and web accessibility</li>
+                        <li>Build a portfolio of projects to showcase skills</li>
+                    </ul>
+                    </p>
+                    <p>
+                        3. Become proficient in object-oriented programming (OOP)
+
+                    <ul>
+                        <li>Study OOP principles (encapsulation, inheritance, polymorphism)</li>
+                        <li>Learn popular frontend frameworks (React, Vue, or Angular)</li>
+                        <li>Practice designing and implementing class structures</li>
+                        <li>Learn design patterns and when to apply them</li>
+                    </ul>
+
+                    </p>
+                    <p>
+
+                        4. Develop problem-solving skills for real-world challenges
+
+                    <ul>
+                        <li>Work on personal projects that address practical issues</li>
+                        <li>Participate in hackathons or coding competitions</li>
+                        <li>Collaborate on open-source projects</li>
+
+                    </ul>
+
+                    </p>
+                 
+                </div>
+            </section>
+                
+        </div>
+        <div class="box image">
+           
+            <img src="./Slackprofile2.png" data-testid="slackProfilePicture" alt="my profile pic">
+            <div class="date-time">
+                
+                    <h3>DATE: <span data-testid="currentDay" id="date"></span></h3> 
+                     <h3>TIME:       <span id="time" data-testid="currentTimeUTC"></span></h3>
+                
+            </div>
+        </div>
+     </div>
+    </div>
+    <script src="./index.js">
+
+    </script>
+</body>
+</html>
